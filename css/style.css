@@ -1,0 +1,21 @@
+/* reset */
+li{
+  list-style-type: none;
+}
+
+/* base style */
+body{
+  background-image: url(/img/body-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* mobile style -800px */
+
+/* tablet style 800px-1200px */
+@media screen and (min-width: 800px)
+
+/* laptop style 1200px+ */
+@media screen and (min-width: 1200px){
+
+}
