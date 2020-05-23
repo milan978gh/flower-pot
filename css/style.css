@@ -1,4 +1,9 @@
 /* reset */
+body, div, ul, li, a,h1, h3{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
 li{
   list-style-type: none;
 }
@@ -11,9 +16,30 @@ body{
 }
 
 /* mobile style -800px */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+}
+
+header h1{
+  grid-column: 1/4;
+  grid-row: 1;
+  text-align: center;
+  margin: auto 0;
+}
+
+.header img{
+  grid-column: 7/9;
+  grid-row: 1;
+  width: 100%;
+  margin: auto;
+}
 
 /* tablet style 800px-1200px */
-@media screen and (min-width: 800px)
+@media screen and (min-width: 800px){
+
+}
 
 /* laptop style 1200px+ */
 @media screen and (min-width: 1200px){
