@@ -10,7 +10,9 @@ li{
 
 /* base style */
 html{
-  background: #cde7f8;
+  background: url(../img/body-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav{
