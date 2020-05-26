@@ -10,14 +10,14 @@ li{
 
 /* base style */
 html{
-  background: url(../img/body-bg.webp);
+  background-image: url(../img/body-bg.webp);
+  background-color: #caf7fa;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 nav{
   width: 100%;
-  height: 60px;
 }
 
 nav ul{
@@ -45,11 +45,15 @@ nav a:hover, a.active{
 
 
 
-/* mobile style -800px */
+/* phone style -800px */
 .grid{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     gap: 10px;
+}
+
+nav ul li{
+  margin: 0 20px;
 }
 
 header h1{
@@ -77,8 +81,15 @@ h3{
 .flower-menu{
   margin: 10px;
   padding: 10px;
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
 }
+
+.flower-menu a{
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid blue;
+} 
 
 .flower-menu h4{
   font-size: 2em;
@@ -89,7 +100,7 @@ h3{
 .flower-menu img{
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 90%;
   max-width: 600px;
 }
 
@@ -133,7 +144,6 @@ footer p{
   body{
     max-width: 1600px;
     margin: 0 auto;
-
   }
   header h1{
     font-size: 5em;
@@ -146,6 +156,10 @@ footer p{
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
   }
+  .flower-menu a{
+    margin: 2px;
+    padding: 2px;
+  } 
   .about-img img{
     display: block;
     width: 100%;
